@@ -23,5 +23,5 @@ app.get('/about', (req,res) =>{
 
 const port = 5000;
 app.listen(port, () =>{
-  console.log(`Server Started on posr ${port}`);
+  console.log(`Server Started on port ${port}`);
 });
