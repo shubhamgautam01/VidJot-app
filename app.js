@@ -5,9 +5,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 // Connect to the database
-mongoose.connect('mongodb://localhost/vidjot-dev',{
-  useMongoClient: true
-})
+mongoose.connect('mongodb://localhost/vidjot-dev',{})
 .then(()=> console.log('MongoDB Connected...'))
 .catch(err=> console.log(err));
 
